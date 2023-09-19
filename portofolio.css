@@ -1,0 +1,14 @@
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  background-color: aquamarine;
+  padding-top: 10rem;
+}
+.card-img-top {
+  border: inset 2px rgb(60, 224, 233);
+}
+footer {
+  background-color: #08a198;
+}

@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/meka9393/public_html/portofolio/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp portofolio.css $DEPLOYPATH
+    - /bin/cp portofolio.js $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
